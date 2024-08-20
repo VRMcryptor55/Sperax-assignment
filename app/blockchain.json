@@ -1,0 +1,35 @@
+{
+    "assets": [
+    {
+        "name": "Testnet Ether",
+        "id": "0",
+        "coingeckoId": "ethereum",
+        "ticker": "ETH",
+        "decimals": 18,
+        "logo": "/assets/eth.png",
+        "chainId": "31337"
+    },
+    {
+        "name": "Tether",
+        "id": "1",
+        "coingeckoId": "ethereum",
+        "ticker": "USTD",
+        "decimals": 18,
+        "logo": "/assets/tether.png",
+        "chainId": "31337"
+    }
+    ],
+    "chains": [
+    {
+        "name": "Ethereum (local testnet)",
+        "chainId": "31337",
+        "nativeAssetId": "0",
+        "blockchainExplorer":""
+    }
+    ],
+    "abis": [
+        "function balanceOf(address _owner) public view returns (uint256 balance)",
+        "function transfer(address _to, uint256 _value) public returns (bool success)",
+        "function decimals() public view returns (uint8)"    
+    ]
+}
